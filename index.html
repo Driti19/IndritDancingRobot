@@ -45,7 +45,7 @@ animation: geeks 17s infinite;
 margin-left: 35%;
 }
 
-/* 20% {
+20% {
 margin-left: 50%;
 }
 
@@ -53,41 +53,6 @@ margin-left: 50%;
 margin-left: 35%;
 }
 
-45% {
-margin-left: 35%;
-}
-
-51% {
-margin-left: 35%;
-}
-
-54% {
-margin-left: 40%;
-}
-
-57% {
-margin-left: 60%;
-}
-
-60% {
-margin-left: 50%;
-}
-
-63% {
-margin-left: 75%;
-}
-
-66% {
-margin-left: 60%;
-}
-
-69% {
-margin-left: 70%;
-}
-
-92% {
-margin-left: 14%;
-} */
 
 11.76% {
     margin-left: -0.1%;
@@ -99,6 +64,10 @@ margin-left:70%;
 
 29.41% {
 margin-left:70%;
+}
+
+35.29% {
+  margin-left: 35%;
 }
 
 100% {
@@ -125,8 +94,9 @@ border-radius: 10%;
 </style>
 </head>
 <body>
+
 <div class="stage">
-<video width="320" height="240" controls autoplay>
+  <video width="320" height="240" controls onloadeddata="true" autoplay>
   <source src="jac.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
