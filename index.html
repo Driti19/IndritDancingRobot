@@ -117,39 +117,46 @@ animation-iteration-count: 1
 @keyframes leftarmmovement {
 
 0% {
-transform: rotate(0deg);
+  transform: rotate(0deg);
 
 }
 
-34.371% {
-margin-left: 45%;
-transform: rotate(0deg);
+34.4% {
+  margin-left: 45%;
+  transform: rotate(0deg);
 
 }
 
-35.759% {
-margin-left:45%;
-transform: rotate(180);
+36.812% {
+  margin-left:45%;
+  transform: rotate(140deg);
 }
 
+39.982% {
+  margin-left: 45%;
+  transform: rotate(0deg)
+}
 
+67.329% {
+  margin-left: 45%;
+  transform: rotate(0deg)
+}
 
+68.447% {
+  margin-left: 45%;
+  transform: rotate(135deg);
+}
 
-
-
-
-
-74.188% {
-margin-left: 45%;
-
-transform: rotate(180deg);
+73.212% {
+  margin-left: 45%;
+  transform: rotate(0deg);
 
 }
 
 
 100% {
-margin-left: 45%;
-transform: rotate(60);
+  margin-left: 45%;
+  transform: rotate(0deg);
   transition: transform 0.5s ease;
   transform-origin: top left;
 }
@@ -163,6 +170,12 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 10%;
 translate: 80px -200px;
+
+animation: rightarmmovement 17s infinite;
+animation-iteration-count: 1
+}
+
+@keyframes rightarmmovement {
 }
 
 .leg {
