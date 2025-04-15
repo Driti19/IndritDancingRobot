@@ -134,12 +134,12 @@ animation-iteration-count: 1
 
 39.982% {
   margin-left: 45%;
-  transform: rotate(0deg)
+  transform: rotate(0deg);
 }
 
 67.329% {
   margin-left: 45%;
-  transform: rotate(0deg)
+  transform: rotate(0deg);
 }
 
 68.447% {
@@ -170,12 +170,53 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 10%;
 translate: 80px -200px;
+transform-origin: top left;
 
 animation: rightarmmovement 17s infinite;
 animation-iteration-count: 1
 }
 
 @keyframes rightarmmovement {
+
+0% {
+  transform:rotate(0deg);
+}
+
+40.029% {
+  margin-left: 45%;
+  transform: rotate(0deg);
+}
+
+42.488% {
+  margin-left: 45%;
+  transform: rotate(-135deg);
+}
+
+43.759% {
+  margin-left: 45%;
+  transform: rotate(0deg);
+}
+
+61.341% {
+  margin-left: 45%;
+  transform: rotate(0deg);
+}
+
+62.818% {
+  margin-left: 45%;
+  transform: rotate(-135deg);
+}
+
+66.482% {
+  margin-left: 45%;
+  transform: rotate(0deg);
+}
+
+100% {
+  margin-left: 45%;
+  transform: rotate(0deg);
+}
+ 
 }
 
 .leg {
@@ -186,6 +227,7 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 10%;
 translate: 40px -200px;
+transform-origin: top left;
 }
 
 .leg2 {
@@ -196,6 +238,7 @@ margin-left: auto;
 margin-right: auto;
 border-radius: 10%;
 translate: -40px -400px;
+transform-origin: top left;
 }
 </style>
 </head>
